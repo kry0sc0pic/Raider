@@ -58,6 +58,12 @@
 
 - Wait for you or anyone else to type the trigger message in any of the channels and let the bot do its work
 
+## Deploying to [Heroku](https://heroku.com)
+- Only use this if you want your bot to be online at all times
+- In the project folder create a `Procfile` without any file extensions or use the one included
+- Open the file and copy the following text: `worker: python bot.py` and paste it in.
+- Create a new application on Heroku and follow the steps on the deploy tab.
+
 
 ## License
 ### [MIT](https://choosealicense.com/licenses/mit/) 
