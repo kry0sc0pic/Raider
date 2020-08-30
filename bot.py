@@ -24,7 +24,7 @@ with open("config.json" , "r") as f:
 data = json.loads(data)
 token = data["TOKEN"]
 trigger = data["TRIGGER"]
-invite = data["TEST"]
+invite = data["INVITE_LINK"]
 ban_msg = data["BAN_MESSAGE"]
 
 client = discord.Client()
