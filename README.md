@@ -10,6 +10,7 @@
 <br>
 
 ## Setup
+- Make sure you have [Python](https://www.python.org/) and [Git](https://git-scm.com/)
 - Create a new app on the [Developer Portal](https://discord.com/developers/applications)
 - Download repo using `git clone https://github.com/krishaayjois21/raider.git`
 
