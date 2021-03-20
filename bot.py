@@ -26,8 +26,10 @@ token = data["TOKEN"]
 trigger = data["TRIGGER"]
 invite = data["INVITE_LINK"]
 ban_msg = data["BAN_MESSAGE"]
+intents = discord.Intents.default()
+intents.members = True
 
-client = discord.Client()
+client = discord.Client(intents=intents)
 print("\n")
 print(Style.RESET_ALL)
 print(Fore.GREEN + f"[BOT] INVITE: {invite}")
