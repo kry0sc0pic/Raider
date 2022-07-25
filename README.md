@@ -2,8 +2,6 @@
 
 ### A discord bot to delete all channels , roles , custom emojis and ban all members from a discord server. In short raiding a server.
 
-*I am developing a btter version of this bot with more features and a web dashboard at [krishaayjois21/Quake](https://github.com/krishaayjois21/Quake)*
-
 <br>
 
 ## *Disclaimer:*
